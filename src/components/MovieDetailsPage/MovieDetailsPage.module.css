@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid #2a363b;
+}
+
+.img {
+  margin-right: 30px;
+}
+
+.descr {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font: 500 30px/1.17 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.genre {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.genreItem:not(:last-child) {
+  margin-right: 4px;
+}
+
+.vote {
+  padding: 1px 10px;
+  background: orange;
+  color: white;
+  border-radius: 5px;
+}
+
+.box {
+  border-bottom: 1px solid #2a363b;
+}
